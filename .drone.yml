@@ -10,7 +10,7 @@ pipeline:
       - ls
 
   build:
-    imgage:golang:latest
+    image:golang:latest
     commands:
       - curl http://www.sina.com.cn
       - curl http://www.baidu.com
