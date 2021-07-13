@@ -1,0 +1,15 @@
+workspace:
+  base: /go
+  path: src/github.com/isfang/drone-test
+
+pipeline:
+  test:
+    image: golang:latest
+    commands:
+      - pwd
+      - ls
+  build:
+    image: golang:latest
+    commands:
+      - echo 111
+      - go run mergeSort.go
