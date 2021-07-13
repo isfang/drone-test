@@ -8,6 +8,13 @@ pipeline:
     commands:
       - pwd
       - ls
+
+  build:
+    imgage:golang:latest
+    commands:
+      - curl http://www.sina.com.cn
+      - curl http://www.baidu.com
+      - curl http://www.iot.com
   build:
     image: golang:latest
     commands:
