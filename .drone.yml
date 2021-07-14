@@ -19,3 +19,7 @@ pipeline:
     commands:
       - echo 111
       - go run mergeSort.go
+      - echo 222
+      - go run insertionSort.go
+      - echo 333
+      - go run quickSort.go
